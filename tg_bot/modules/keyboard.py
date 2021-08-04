@@ -53,7 +53,7 @@ def keyboard(bot, update):
     update.effective_message.reply_text("keyboard updated",
                                             reply_markup=ReplyKeyboardMarkup([[
                                                 KeyboardButton("/help - Bot Help"), 
-                                                KeyboardButton("/filter - Filters"),
+                                                KeyboardButton("/filters - Filters"),
                                                 KeyboardButton("/notes - Notes")],
                                              [KeyboardButton(btn1)], 
                                              [KeyboardButton(btn2)],
